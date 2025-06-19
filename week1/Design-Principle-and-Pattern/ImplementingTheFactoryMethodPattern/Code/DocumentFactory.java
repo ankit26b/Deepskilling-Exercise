@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public class DocumentFactory {
+public abstract class DocumentFactory {
+    public abstract Document createDocument();
 }

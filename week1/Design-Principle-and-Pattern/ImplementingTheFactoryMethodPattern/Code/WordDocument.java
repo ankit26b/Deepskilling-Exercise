@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
-
-public class WordDocument {
+public class WordDocument implements Document{
+    @Override
+    public void open() {
+        System.out.println("Opening Word Document");
+    }
 }

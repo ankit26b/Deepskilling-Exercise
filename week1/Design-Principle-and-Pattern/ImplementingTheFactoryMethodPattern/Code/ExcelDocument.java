@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
-
-public class ExcelDocument {
+public class ExcelDocument implements Document{
+    @Override
+    public void open() {
+        System.out.println("Opening Excel Document");
+    }
 }

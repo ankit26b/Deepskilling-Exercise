@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
-
-public class WordDocumentFactory {
+public class WordDocumentFactory extends DocumentFactory {
+    @Override
+    public Document createDocument() {
+        return new WordDocument();
+    }
 }
