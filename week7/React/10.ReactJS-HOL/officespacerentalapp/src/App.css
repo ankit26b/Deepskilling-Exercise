@@ -1,0 +1,25 @@
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  
+}
+
+.box{
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.office {
+  margin-bottom: 40px;
+}
+
+.textRed {
+  color: red;
+}
+
+.textGreen {
+  color: green;
+}
