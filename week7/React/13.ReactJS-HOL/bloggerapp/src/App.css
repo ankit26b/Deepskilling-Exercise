@@ -1,0 +1,16 @@
+.App {
+  padding: 20px;
+  font-family: Arial;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.st2, .v1, .mystyle1 {
+  border-left: 2px solid green;
+  padding-left: 20px;
+  width: 30%;
+}
